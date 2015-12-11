@@ -34,7 +34,7 @@
             <attr name="command" stringvalue="n"/>
             <attr name="position" intvalue="0"/>
             <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-NpmSearchProvider.instance">
-                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-WikipediaSearchProvider.instance"/>
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-NpmSearchProvider.instance"/>
             </file>
         </folder>
 <!--        <folder name="bower.io">
@@ -44,5 +44,12 @@
                 <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-WikipediaSearchProvider.instance"/>
             </file>
         </folder>-->
+        <folder name="Github">
+            <attr name="command" stringvalue="gh"/>
+            <attr name="position" intvalue="0"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-GithubSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-GithubSearchProvider.instance"/>
+            </file>
+        </folder>
     </folder>
 </filesystem>
