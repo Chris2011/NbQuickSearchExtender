@@ -51,5 +51,12 @@
                 <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-GithubSearchProvider.instance"/>
             </file>
         </folder>
+        <folder name="Bitbucket">
+            <attr name="command" stringvalue="bb"/>
+            <attr name="position" intvalue="0"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-BitbucketSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-BitbucketSearchProvider.instance"/>
+            </file>
+        </folder>
     </folder>
 </filesystem>
