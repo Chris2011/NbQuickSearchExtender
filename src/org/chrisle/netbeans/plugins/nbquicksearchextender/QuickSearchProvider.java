@@ -64,7 +64,7 @@ public class QuickSearchProvider implements SearchProvider {
         this._selector = _selector;
     }
 
-    void setBaseUrl(String baseUrl) {
+    public void setBaseUrl(String baseUrl) {
         this._baseUrl = baseUrl;
     }
 
