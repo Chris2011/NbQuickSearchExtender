@@ -1,5 +1,6 @@
-package org.chrisle.netbeans.plugins.nbquicksearchextender;
+package org.chrisle.netbeans.plugins.nbquicksearchextender.searchprovider;
 
+import org.chrisle.netbeans.plugins.nbquicksearchextender.QuickSearchProvider;
 import org.netbeans.spi.quicksearch.SearchRequest;
 import org.netbeans.spi.quicksearch.SearchResponse;
 

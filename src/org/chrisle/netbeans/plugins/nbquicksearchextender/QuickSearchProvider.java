@@ -2,8 +2,6 @@ package org.chrisle.netbeans.plugins.nbquicksearchextender;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.net.URLEncoder;
 import org.netbeans.spi.quicksearch.SearchProvider;
 import org.netbeans.spi.quicksearch.SearchRequest;
@@ -11,8 +9,6 @@ import org.netbeans.spi.quicksearch.SearchResponse;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.openide.awt.HtmlBrowser.URLDisplayer;
-import org.openide.awt.StatusDisplayer;
 import org.openide.util.Exceptions;
 
 public class QuickSearchProvider implements SearchProvider {
@@ -68,7 +64,7 @@ public class QuickSearchProvider implements SearchProvider {
         this._selector = _selector;
     }
 
-    void setBaseUrl(String baseUrl) {
+    public void setBaseUrl(String baseUrl) {
         this._baseUrl = baseUrl;
     }
 

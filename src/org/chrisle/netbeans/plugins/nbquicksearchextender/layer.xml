@@ -5,44 +5,58 @@
         <folder name="Google">
             <attr name="command" stringvalue="g"/>
             <attr name="position" intvalue="0"/>
-            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-GoogleSearchProvider.instance">
-                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-GoogleSearchProvider.instance"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-GoogleSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-GoogleSearchProvider.instance"/>
             </file>
         </folder>
         <folder name="Stackoverflow">
             <attr name="command" stringvalue="st"/>
             <attr name="position" intvalue="0"/>
-            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-StackoverflowSearchProvider.instance">
-                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-StackoverflowSearchProvider.instance"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-StackoverflowSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-StackoverflowSearchProvider.instance"/>
             </file>
         </folder>
         <folder name="Wikipedia">
             <attr name="command" stringvalue="w"/>
             <attr name="position" intvalue="0"/>
-            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-WikipediaSearchProvider.instance">
-                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-WikipediaSearchProvider.instance"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-WikipediaSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-WikipediaSearchProvider.instance"/>
             </file>
         </folder>
 <!--        <folder name="findjar.com">
             <attr name="command" stringvalue="j"/>
             <attr name="position" intvalue="0"/>
-            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-JarSearchProvider.instance">
-                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-WikipediaSearchProvider.instance"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-JarSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-WikipediaSearchProvider.instance"/>
             </file>
         </folder>-->
         <folder name="npmjs.com">
             <attr name="command" stringvalue="n"/>
             <attr name="position" intvalue="0"/>
-            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-NpmSearchProvider.instance">
-                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-WikipediaSearchProvider.instance"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-NpmSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-NpmSearchProvider.instance"/>
             </file>
         </folder>
 <!--        <folder name="bower.io">
             <attr name="command" stringvalue="b"/>
             <attr name="position" intvalue="0"/>
-            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-BowerSearchProvider.instance">
-                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-WikipediaSearchProvider.instance"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-BowerSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-WikipediaSearchProvider.instance"/>
             </file>
         </folder>-->
+        <folder name="Github">
+            <attr name="command" stringvalue="gh"/>
+            <attr name="position" intvalue="0"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-GithubSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-GithubSearchProvider.instance"/>
+            </file>
+        </folder>
+        <folder name="Bitbucket">
+            <attr name="command" stringvalue="bb"/>
+            <attr name="position" intvalue="0"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-BitbucketSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-BitbucketSearchProvider.instance"/>
+            </file>
+        </folder>
     </folder>
 </filesystem>
