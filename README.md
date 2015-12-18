@@ -16,6 +16,8 @@ maybe via a pull request or so.
 2. __n__ = npmjs.com
 3. __w__ = wikipedia.com
 4. __st__ = stackoverflow.com
+5. __gh__ = github.com
+6. __bb__ = bitbucket.org
 
 ### Usage
 1. Go to quick search (Maybe with Ctrl + I)
