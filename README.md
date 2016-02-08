@@ -17,6 +17,8 @@ maybe via a pull request or so.
     <li><strong>n</strong> = npmjs.com</li>
     <li><strong>w</strong> = wikipedia.com</li>
     <li><strong>st</strong> = stackoverflow.com</li>
+    <li><strong>gh</strong> = github.com</li>
+    <li><strong>bb</strong> = bitbucket.org</li>
 </ol>
 
 <h3>Usage</h3>
@@ -26,7 +28,7 @@ maybe via a pull request or so.
     <li>Hit enter or use the mouse to click on a link to open it inside the browser</li>
 </ol>
 
-<h3>Providers are not in because of problems</h3>
+<h3>Known provider problems</h3>
 <ol>
     <li>Bower.io - Unfortunately it's not possible to use this, because bower.io do an ajax call which and bind the result with angular.
         If I read the links of the result, the result is still empty. Don't know how to fix it atm.</li>
