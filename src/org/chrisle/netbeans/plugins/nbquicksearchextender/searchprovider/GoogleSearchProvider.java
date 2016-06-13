@@ -8,7 +8,7 @@ import org.netbeans.spi.quicksearch.SearchResponse;
 public class GoogleSearchProvider extends QuickSearchProvider {
     public GoogleSearchProvider() {
         super.setSearchUrl("http://www.google.com/search?q=");
-        super.setSelector("ol .g h3>a");
+        super.setSelector("#search .g h3>a");
     }
 
     @Override
