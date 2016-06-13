@@ -19,6 +19,7 @@ maybe via a pull request or so.
     <li><strong>st</strong> = stackoverflow.com</li>
     <li><strong>gh</strong> = github.com</li>
     <li><strong>bb</strong> = bitbucket.org</li>
+    <li><strong>pg</strong> = packagist.org</li>
 </ol>
 
 <h3>Usage</h3>
