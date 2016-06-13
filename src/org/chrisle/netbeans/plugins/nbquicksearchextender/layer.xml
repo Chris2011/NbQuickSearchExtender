@@ -23,6 +23,13 @@
                 <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-WikipediaSearchProvider.instance"/>
             </file>
         </folder>
+        <folder name="Packagist">
+            <attr name="command" stringvalue="pg"/>
+            <attr name="position" intvalue="0"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-PackagistSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-PackagistSearchProvider.instance"/>
+            </file>
+        </folder>
 <!--        <folder name="findjar.com">
             <attr name="command" stringvalue="j"/>
             <attr name="position" intvalue="0"/>
