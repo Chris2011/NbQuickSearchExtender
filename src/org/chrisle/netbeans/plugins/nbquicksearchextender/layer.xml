@@ -51,6 +51,13 @@
                 <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-WikipediaSearchProvider.instance"/>
             </file>
         </folder>-->
+        <folder name="Docker Hub">
+            <attr name="command" stringvalue="dh"/>
+            <attr name="position" intvalue="0"/>
+            <file name="org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-DockerHubSearchProvider.instance">
+                <attr name="displayName" bundlevalue="org.chrisle.netbeans.plugins.nbquicksearchextender.Bundle#QuickSearch/Internet/org-chrisle-netbeans-plugins-nbquicksearchextender-searchprovider-DockerHubSearchProvider.instance"/>
+            </file>
+        </folder>
         <folder name="Github">
             <attr name="command" stringvalue="gh"/>
             <attr name="position" intvalue="0"/>
