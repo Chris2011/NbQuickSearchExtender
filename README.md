@@ -20,6 +20,7 @@ maybe via a pull request or so.
     <li><strong>gh</strong> = github.com</li>
     <li><strong>bb</strong> = bitbucket.org</li>
     <li><strong>pg</strong> = packagist.org</li>
+    <li><strong>dh</strong> = hub.docker.com</li>
 </ol>
 
 <h3>Usage</h3>
@@ -34,10 +35,6 @@ maybe via a pull request or so.
 <li>Bower.io - Unfortunately it's not possible to use this, because bower.io do an ajax call which and bind the result with angular.
 If I read the links of the result, the result is still empty. Don't know how to fix it atm.</li>
 <li>Findjar.com - I tried it but I got a socket timeout, because of the long response time.</li>
-<li>Problems with Wikipedia.com - The problem is how wikipedia shows results.
-they only show resulsts if they can't find a word or you search for phrases.
-If you search for "Netbeans" and hit enter at wikipedia, it will open the link
-to netbeans immediately. And this is the problem why you don't have any resultlist.</li>
 </ol>
 
 <h3>See how it works</h3>
