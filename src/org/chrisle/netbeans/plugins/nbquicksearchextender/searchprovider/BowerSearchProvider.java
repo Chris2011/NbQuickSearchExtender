@@ -8,8 +8,8 @@ import org.netbeans.spi.quicksearch.SearchResponse;
 public class BowerSearchProvider extends QuickSearchProvider {
     public BowerSearchProvider() {
         super.setBaseUrl("");
-        super.setSearchUrl("http://bower.io/search/?q=");
-        super.setSelector(".search-results td a");
+        super.setSearchUrl("https://libraries.io/api/bower-search?q=");
+        super.setSelector(".search-results td a"); // FIXME: Result is JSON not HTML anymore.
     }
 
     @Override
