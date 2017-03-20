@@ -8,8 +8,8 @@ import org.netbeans.spi.quicksearch.SearchResponse;
 public class WikipediaSearchProvider extends QuickSearchProvider {
 
     public WikipediaSearchProvider() {
-        super.setSearchUrl("https://de.wikipedia.org/wiki/?search=");
-        super.setSelector(".mw-search-results>li a");
+        super.setSearchUrl("https://en.wikipedia.org/w/index.php?fulltext=1&search=");
+        super.setSelector(".mw-search-results li .mw-search-result-heading a");
     }
 
     @Override
