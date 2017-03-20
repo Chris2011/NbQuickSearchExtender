@@ -7,7 +7,7 @@ import org.netbeans.spi.quicksearch.SearchResponse;
 public class GithubSearchProvider extends QuickSearchProvider {
     public GithubSearchProvider() {
         super.setSearchUrl("https://github.com/search?q=");
-        super.setSelector(".repo-list li .repo-list-name a");
+        super.setSelector(".repo-list li > div h3 a");
     }
 
     @Override
